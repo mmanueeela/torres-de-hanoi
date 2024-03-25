@@ -75,7 +75,7 @@ namespace Torres_de_Hanoi
             nRR = n;
             int devolver;
             m = 0;
-            if (n % 2 == 0)//par
+            if (n % 2 == 0)
             {
                 while (fin.Size != n)
                 {
@@ -91,7 +91,7 @@ namespace Torres_de_Hanoi
 
                 }
             }
-            else//impar
+            else
             {
                 while (aux.Size != n)
                 {
